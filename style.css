@@ -574,5 +574,8 @@ fieldset {
         margin: 60px;
         width: 98%;
     }
+    .proj-2 button{
+        display: none;
+    }
 }
 /* Media Queries */
