@@ -8,6 +8,8 @@ let icon = document.getElementById('hamburger').addEventListener('click', toggle
     }
 })
 
-list.addEventListener('click', hide = () => {
+if(innerWidth <= 425px){
+    list.addEventListener('click', hide = () => {
     list.style.display = 'none';
 })
+}
