@@ -580,3 +580,7 @@ fieldset {
     }
 }
 /* Media Queries */
+
+#fb-root, #fb-customer-chat{
+   z-index: 100;
+}
