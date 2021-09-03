@@ -584,3 +584,13 @@ fieldset {
 #fb-root, #fb-customer-chat{
    z-index: 100;
 }
+.review-div div{
+    margin: auto;
+}
+
+details > summary{
+    list-style-type: none;
+    font-weight: bold;
+    color: #007CFE;
+    display: inline;
+}
