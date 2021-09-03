@@ -8,9 +8,11 @@ let icon = document.getElementById('hamburger').addEventListener('click', toggle
     }
 })
 
+let lpro = document.getElementById('lpro');
 list.addEventListener('click', hide = () => {
     if(window.innerWidth <= 425){
         list.style.display = 'none';
+        lpro.innerText="Projects";
     }else{
         list.style.display != 'flex';
     }
