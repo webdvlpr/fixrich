@@ -8,10 +8,10 @@ let icon = document.getElementById('hamburger').addEventListener('click', toggle
     }
 })
 
-list.childNodes.addEventListener('click', hide = () => {
-    if(list.style.flexDirection == 'column'){
+list.addEventListener('click', hide = () => {
+    if(window.innerWidth <= 425){
         list.style.display = 'none';
     }else{
-        list.style.display != 'none';
+        list.style.display != 'flex';
     }
 })
